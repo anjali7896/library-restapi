@@ -15,7 +15,7 @@ The API allows adding, retrieving, filtering by year, and deleting books.
 - Postman
 
 ### Steps to Run the Project
-1. Open Spring Tool Suite (STS)**.
+1. Open Spring Tool Suite (STS).
 2. Import the project:
 ```
 
