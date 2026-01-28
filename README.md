@@ -68,8 +68,11 @@ File → Import → Existing Maven Project → Select project folder → Finish
  1. GET /books → Retrieve all books
     ![image_alt](https://github.com/anjali7896/library-restapi/blob/965d74ae1659c249d60020dc24a4e6bcf802ef73/Screenshot%20(51).png) 
    
- 3. GET /books/search?year=2024 → Filter by year
+ 2. GET /books/search?year=2024 → Filter by year
    ![image_alt](https://github.com/anjali7896/library-restapi/blob/9d5f6cea44f9ec1d73ad20ccfd7a6fd8d7c1330f/Screenshot%20(53).png)
+
+ 3. Delete a book by id
+    ![image-alt](https://github.com/anjali7896/library-restapi/blob/63e1b7928c149ab55905d11a5342bbc0345b5a33/Screenshot%20(54).png)
 
 ---
 
