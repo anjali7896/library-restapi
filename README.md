@@ -179,12 +179,11 @@ Book deleted successfully
 
 ## 6. Postman Screenshots
 
-*(Attach screenshots of the following:)*
 
-1. POST /books → Adding 2–3 books
 2. GET /books → Retrieve all books
-3. GET /books/search?year=2024 → Filter by year
-4. DELETE /books/{id} → Deleting a book
+   
+4. GET /books/search?year=2024 → Filter by year
+![image_alt](https://github.com/anjali7896/library-restapi/blob/9d5f6cea44f9ec1d73ad20ccfd7a6fd8d7c1330f/Screenshot%20(53).png)
 
 ---
 
