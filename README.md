@@ -63,131 +63,17 @@ File → Import → Existing Maven Project → Select project folder → Finish
 
 ---
 
-## 5. Sample Requests and Responses
+## 5. Postman Screenshots
 
-### 5.1 Add Books (POST /books)
-**Request Body Example 1**
-```json
-{
-  "id": 1,
-  "title": "Ramayan",
-  "author": "Valmiki",
-  "year": 2024
-}
-````
-
-**Request Body Example 2**
-
-```json
-{
-  "id": 2,
-  "title": "Mahabharat",
-  "author": "Ved Vyasa",
-  "year": 2024
-}
-```
-
-**Request Body Example 3**
-
-```json
-{
-  "id": 3,
-  "title": "Bhagavad Gita",
-  "author": "Ved Vyasa",
-  "year": 2023
-}
-```
-
----
-
-### 5.2 Get All Books (GET /books)
-
-**Expected Response**
-
-```json
-[
-  {
-    "id": 1,
-    "title": "Ramayan",
-    "author": "Valmiki",
-    "year": 2024
-  },
-  {
-    "id": 2,
-    "title": "Mahabharat",
-    "author": "Ved Vyasa",
-    "year": 2024
-  },
-  {
-    "id": 3,
-    "title": "Bhagavad Gita",
-    "author": "Ved Vyasa",
-    "year": 2023
-  }
-]
-```
-
----
-
-### 5.3 Get Books by Year (GET /books/search?year=2024)
-
-**Expected Response**
-
-```json
-[
-  {
-    "id": 1,
-    "title": "Ramayan",
-    "author": "Valmiki",
-    "year": 2024
-  },
-  {
-    "id": 2,
-    "title": "Mahabharat",
-    "author": "Ved Vyasa",
-    "year": 2024
-  }
-]
-```
-
----
-
-### 5.4 Get Book by ID (GET /books/1)
-
-**Expected Response**
-
-```json
-{
-  "id": 1,
-  "title": "Ramayan",
-  "author": "Valmiki",
-  "year": 2024
-}
-```
-
----
-
-### 5.5 Delete a Book (DELETE /books/3)
-
-**Response**
-
-```
-Book deleted successfully
-```
-
----
-
-## 6. Postman Screenshots
-
-
-2. GET /books → Retrieve all books
+ 1. GET /books → Retrieve all books
+    ![image_alt](https://github.com/anjali7896/library-restapi/blob/965d74ae1659c249d60020dc24a4e6bcf802ef73/Screenshot%20(51).png) 
    
-4. GET /books/search?year=2024 → Filter by year
-![image_alt](https://github.com/anjali7896/library-restapi/blob/9d5f6cea44f9ec1d73ad20ccfd7a6fd8d7c1330f/Screenshot%20(53).png)
+ 3. GET /books/search?year=2024 → Filter by year
+   ![image_alt](https://github.com/anjali7896/library-restapi/blob/9d5f6cea44f9ec1d73ad20ccfd7a6fd8d7c1330f/Screenshot%20(53).png)
 
 ---
 
-## 7. Future Improvements
+## 6. Future Improvements
 
 If I had **2 more days**, I would:
 
@@ -198,23 +84,3 @@ If I had **2 more days**, I would:
 * Optionally integrate a **database** while keeping in-memory mode for testing
 
 ---
-
-✅ Fully in-memory
-✅ Tested using **Postman**
-✅ Developed in **Spring Tool Suite (STS)**
-✅ Clean REST API with CRUD operations
-
-```
-
----
-
-If you want, I can **also prepare a ready-made Postman collection JSON** with:
-
-- POST requests for the 3 holy books  
-- GET all books  
-- GET by year 2024  
-
-So you can **import into Postman and take screenshots immediately**.  
-
-Do you want me to do that next?
-```
